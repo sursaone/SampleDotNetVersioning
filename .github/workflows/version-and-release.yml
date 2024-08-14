@@ -23,8 +23,8 @@ jobs:
       run: dotnet tool install --global Versionize
     - name: Setup git
       run: |
-        git config --local user.email "francis04j@gmail.com"
-        git config --local user.name "Francis Ade"
+        git config --local user.email "hello@academykit.co"
+        git config --local user.name "Academy Kit Bot"
     - name: Versionize Release
       id: versionize
       run: versionize --changelog-all --skip-dirty
